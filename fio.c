@@ -25,6 +25,7 @@
 
 int main(int argc, char *argv[], char *envp[])
 {
+	sleep(5);
 	int ret = 1;
 
 	if (initialize_fio(envp))
